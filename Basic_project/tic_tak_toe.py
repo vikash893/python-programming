@@ -34,7 +34,7 @@ while 1:
     if 0 <= mv <= 8 and choices[mv] == ' ':
         choices[mv] = turns
         print_board(choices)
-        if check_winner(choices, turns):
+        if hhhcheck_winner(choices, turns):
             print(f'You won {turns}!')
             break
         if ' ' not in choices:
